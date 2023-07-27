@@ -1,0 +1,19 @@
+.icons{
+    font-size: 100px;
+    animation:mymove 5s infinite;
+}
+@keyframes mymove {
+    50% {transform: rotate(30deg);}
+}
+.beech{
+    margin-left: 35%;
+    margin-bottom:2%;
+}
+.floting{
+    display:none;
+}
+@media only screen and (max-width: 600px) {
+    .floting{
+        display:inline;
+    }
+}
