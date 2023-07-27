@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{title}}</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+
+<body>
+  {{>navbar}}
+
+
+      <section class="flex flex-col justify-around gap-4 sm:gap-10 md:gap-16 lg:flex-row">
+        <!-- content - start -->
+        <div
+          class="flex flex-col items-center justify-center sm:text-center lg:items-start lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
+          <h1 class="text-black-800 mb-8 text-4xl font-bold sm:text-5xl md:mb-12 md:text-6xl">Welcome To Mausam Vibhag News</h1>
+
+          <p class="mb-8 leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg">We are hear to help you to provide best and verified news and along with mausam analyses according to city wise and you can check it by Clicking the below Button.
+            </p>
+
+          <form class="flex w-full gap-2 md:max-w-md">
+            <button
+              class="inline-block rounded bg-indigo-500 px-8 py-2 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base"><a href="/wether">Explore</a></button>
+          </form>
+        </div>
+        <!-- content - end -->
+
+        <!-- image - start -->
+        <div class="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-5/12">
+          <lottie-player src="https://lottie.host/6cdecac1-49e7-4c45-a9e5-a2abee88b6aa/LbkZRoNU8P.json"
+            background="transparent" class="h-full w-full object-cover object-center" speed="2"  loop autoplay direction="1" mode="normal"></lottie-player>
+        </div>
+        <!-- image - end -->
+
+      </section>
+    </div>
+  </div>
+
+  {{>footer}}
+  {{>floting}}
+
+  <script src="public\js\index.js"></script>
+
+</body>
+
+</html>

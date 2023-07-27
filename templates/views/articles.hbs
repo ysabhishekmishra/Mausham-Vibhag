@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+
+<body>
+    {{>navbar}}
+
+
+
+
+    <div id="carouselExampleCaptions" class="relative data-te-carousel-init data-te-carousel-slide">
+        
+
+        <!--Carousel items-->
+        <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+            <!--First item-->
+            <div class="relative float-left -mr-[100%] w-full" style="backface-visibility: hidden">
+                <video loop muted autoplay>
+                    <source src="images\Weather_news_intro.mp4" type="video/mp4">
+                </video>
+                <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
+                    <h5 class="text-xl">Centralized Place to Know All Mausam News</h5>
+                    <p>
+                        We are mainly focus on Wether Forcasting and Predicting The Wether of Live Location Or City Wise Or You can find all details of Wether hear.
+                    </p>
+                </div>
+            </div>
+        </button>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="bg-white py-6 sm:py-8 lg:py-12">
+        <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+            <div class="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
+                <div class="flex items-center gap-12">
+                    <h2 class="text-2xl font-bold text-gray-800 lg:text-3xl">Gallery</h2>
+
+                    <p class="hidden max-w-screen-sm text-gray-500 md:block">This is a section of some simple filler
+                        text, also known as placeholder text. It shares some characteristics of a real written text.</p>
+                </div>
+
+                <a href="#"
+                    class="inline-block rounded-lg border bg-white px-4 py-2 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:px-8 md:py-3 md:text-base">More</a>
+            </div>
+
+            <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
+                <!-- image - start -->
+                <a href="#"
+                    class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                    <img src="images/flood.jpg"
+                        loading="lazy" alt="Photo by Minh Pham"
+                        class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                    </div>
+
+                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Mumbai Flood</span>
+                </a>
+                <!-- image - end -->
+
+                <!-- image - start -->
+                <a href="#"
+                    class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                    <img src="images/1.jpg"
+                        loading="lazy" alt="Photo by Magicle"
+                        class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                    </div>
+
+                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Cloud-Shadow</span>
+                </a>
+                <!-- image - end -->
+
+                <!-- image - start -->
+                <a href="#"
+                    class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                    <img src="images/tsunami.jpg"
+                        loading="lazy" alt="Photo by Martin Sanchez"
+                        class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                    </div>
+
+                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Tsunami-Manipur</span>
+                </a>
+                <!-- image - end -->
+
+                <!-- image - start -->
+                <a href="#"
+                    class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                    <img src="images/tea plantation.jpg"
+                        loading="lazy" alt="Photo by Lorenzo Herrera"
+                        class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                    </div>
+
+                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Winter-Assam</span>
+                </a>
+                <!-- image - end -->
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="bg-white py-6 sm:py-8 lg:py-12">
+        <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+            <!-- text - start -->
+            <div class="mb-10 md:mb-16">
+                <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Blog</h2>
+
+                <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">This is a section of some simple
+                    filler text, also known as placeholder text. It shares some characteristics of a real written text
+                    but is random or otherwise generated.</p>
+            </div>
+            <!-- text - end -->
+
+            <div class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-8 mt-8">
+                <!-- article - start -->
+                <a href="#"
+                    class="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                    <img src="images/yamuna.jpg"
+                        loading="lazy" alt="Photo by Minh Pham"
+                        class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent">
+                    </div>
+
+                    <div class="relative mt-auto p-4">
+                        <span class="block text-sm text-gray-200">July 27, 2023</span>
+                        <h2 class="mb-2 text-xl font-semibold text-white transition duration-100">Delhi On Flood Alert-Yamuna River
+                        </h2>
+
+                        <span class="font-semibold text-indigo-300">Read more</span>
+                    </div>
+                </a>
+                <!-- article - end -->
+
+                <!-- article - start -->
+                <a href="#"
+                    class="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                    <img src="/images/modi.jpg"
+                        loading="lazy" alt="Photo by Lorenzo Herrera"
+                        class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent">
+                    </div>
+
+                    <div class="relative mt-auto p-4">
+                        <span class="block text-sm text-gray-200">January 22, 2023</span>
+                        <h2 class="mb-2 text-xl font-semibold text-white transition duration-100">
+“Impressed by his vision,” says Micron CEO Sanjay Mehrotra after meeting PM Modi in Washington DC</h2>
+
+                        <span class="font-semibold text-indigo-300">Read more</span>
+                    </div>
+                </a>
+                <!-- article - end -->
+
+                <!-- article - start -->
+                <a href="#"
+                    class="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                    <img src="images/mumbai.jpg"
+                        loading="lazy" alt="Photo by Magicle"
+                        class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent">
+                    </div>
+
+                    <div class="relative mt-auto p-4">
+                        <span class="block text-sm text-gray-200">June 27, 2023</span>
+                        <h2 class="mb-2 text-xl font-semibold text-white transition duration-100">Amid heavy rains, IMD issues red alert for Mumbai and suburbs till July 27 afternoon</h2>
+
+                        <span class="font-semibold text-indigo-300">Read more</span>
+                    </div>
+                </a>
+                <!-- article - end -->
+
+                <!-- article - start -->
+                <a href="#"
+                    class="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                    <img src="images/iit.jpg"
+                        loading="lazy" alt="Photo by Martin Sanchez"
+                        class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent">
+                    </div>
+
+                    <div class="relative mt-auto p-4">
+                        <span class="block text-sm text-gray-200">June 27, 2023</span>
+                        <h2 class="mb-2 text-xl font-semibold text-white transition duration-100">15 IIT Bombay Students Opt for 3-Year Exit Degree</h2>
+
+                        <span class="font-semibold text-indigo-300">Read more</span>
+                    </div>
+                </a>
+                <!-- article - end -->
+            </div>
+            <div class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-8 mt-8">
+                <!-- article - start -->
+                <a href="#"
+                    class="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                    <img src="images/delhi.png"
+                        loading="lazy" alt="Photo by Minh Pham"
+                        class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent">
+                    </div>
+
+                    <div class="relative mt-auto p-4">
+                        <span class="block text-sm text-gray-200">July 27, 2023</span>
+                        <h2 class="mb-2 text-xl font-semibold text-white transition duration-100">पंजाबी बाग इलाके में छत का छज्जा गिरा, हादसे में मां और बेटे की मौत
+                        </h2>
+
+                        <span class="font-semibold text-indigo-300">Read more</span>
+                    </div>
+                </a>
+                <!-- article - end -->
+
+                <!-- article - start -->
+                <a href="#"
+                    class="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                    <img src="images/kangana.png"
+                        loading="lazy" alt="Photo by Lorenzo Herrera"
+                        class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent">
+                    </div>
+
+                    <div class="relative mt-auto p-4">
+                        <span class="block text-sm text-gray-200">August 3, 2023</span>
+                        <h2 class="mb-2 text-xl font-semibold text-white transition duration-100">Kangana in Another Controvercy</h2>
+
+                        <span class="font-semibold text-indigo-300">Read more</span>
+                    </div>
+                </a>
+                <!-- article - end -->
+
+                <!-- article - start -->
+                <a href="#"
+                    class="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                    <img src="images/gadar.jpg"
+                        loading="lazy" alt="Photo by Magicle"
+                        class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent">
+                    </div>
+
+                    <div class="relative mt-auto p-4">
+                        <span class="block text-sm text-gray-200">August 4, 2023</span>
+                        <h2 class="mb-2 text-xl font-semibold text-white transition duration-100">Gadar-2 Teaser release</h2>
+
+                        <span class="font-semibold text-indigo-300">Read more</span>
+                    </div>
+                </a>
+                <!-- article - end -->
+
+                <!-- article - start -->
+                <a href="#"
+                    class="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
+                    <img src="images/tcs.png"
+                        loading="lazy" alt="Photo by Martin Sanchez"
+                        class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent">
+                    </div>
+
+                    <div class="relative mt-auto p-4">
+                        <span class="block text-sm text-gray-200">July 27, 2023</span>
+                        <h2 class="mb-2 text-xl font-semibold text-white transition duration-100">TCS Loses billions of dollars of deal | 1800+ employees to be removed from project</h2>
+
+                        <span class="font-semibold text-indigo-300">Read more</span>
+                    </div>
+                </a>
+                <!-- article - end -->
+            </div>
+            {{>footer}}
+            {{>floting}}
+</body>
+
+</html>
